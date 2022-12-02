@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 5% 1%;
+  z-index: 2;
+}
+.nav__list {
+  list-style: none;
+  display: flex;
+  width: 100%;
+}
+.nav__list__item {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 100%;
+}
+.nav__list__item__img {
+  width: 70%;
+  max-width: 200px;
+}
+.nav__list__item__boton {
+  text-decoration: none;
+  background-color: white;
+  padding: 1% 10%;
+  border-radius: 15px;
+  color: black;
+  box-shadow: 0 0 3px 3px rgba(128, 128, 128, 0.26);
+}
+
+.inicio {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inicio__contenedor {
+  padding: 2%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.inicio__contenedor__parrafo {
+  color: gray;
+  font-family: "Poppins", sans-serif;
+  margin: 10% 5%;
+}
+.inicio__contenedor__boton {
+  background-color: hsl(322deg, 100%, 66%);
+  padding: 3% 9%;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  font-weight: 900;
+}
+.inicio__contenedor__imgP {
+  width: 80%;
+  margin: 10% 3%;
+}
+
+.background {
+  width: 100%;
+  background-color: hsl(193deg, 100%, 96%);
+}
+.background__imgD {
+  display: none;
+}
+.background__imgM {
+  width: 100%;
+  min-height: 700px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 7%;
+}
+.contenedor__card {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 4px rgba(67, 66, 66, 0.151);
+  margin-top: 10%;
+  text-align: center;
+}
+.contenedor__card__img {
+  width: 80%;
+  padding: 2%;
+  margin: 10% 0;
+}
+.contenedor__card__cont {
+  padding: 7%;
+}
+.contenedor__card__cont__titulo {
+  margin: 2% 0;
+}
+.contenedor__card__cont__parrafo {
+  color: hsl(208deg, 11%, 55%);
+  font-size: small;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  padding: 15% 0%;
+  text-align: center;
+}
+.cards__cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  width: 70%;
+  border-radius: 10px;
+  padding: 6%;
+  box-shadow: 0 0 4px 4px rgba(128, 128, 128, 0.264);
+}
+.cards__cont__titulo {
+  margin: 4% 0;
+}
+.cards__cont__boton {
+  background-color: hsl(322deg, 100%, 66%);
+  padding: 4% 15%;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 50%;
+}
+.cards__cont__boton:hover {
+  background-color: #E99EC5;
+}
+
+.footer {
+  background-color: #00242D;
+}
+.footer__contenedor {
+  padding-top: 25%;
+  padding-left: 5%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+  top: 100px;
+}
+
+.lista {
+  color: white;
+}
+.lista__logo {
+  width: 50%;
+  margin: 8% 0;
+}
+.lista__info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 3% 0;
+  font-size: 80%;
+}
+.lista__info__img {
+  width: 5%;
+  margin: 2%;
+}
+
+.informacion__lista {
+  list-style: none;
+  margin-top: 4%;
+}
+.informacion__lista__item {
+  text-decoration: none;
+  color: white;
+  font-size: 80%;
+}
+
+.contacto__lista {
+  list-style: none;
+}
+.contacto__lista__item {
+  text-decoration: none;
+  color: white;
+  font-size: 80%;
+}
+
+.redes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.redes__lista {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 10%;
+  min-height: 30px;
+  margin: 2%;
+  text-decoration: none;
+}
+.redes__lista__icon {
+  padding: 1%;
+}
+.redes__lista:hover {
+  color: hsl(322deg, 100%, 66%);
+  border: 1px solid hsl(322deg, 100%, 66%);
+}
+
+.contendorR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5% 0;
+}
+
+.copy {
+  width: 100%;
+  margin-top: 2%;
+  text-align: center;
+  font-size: small;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
